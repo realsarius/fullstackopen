@@ -1,0 +1,20 @@
+title Single page app diagram
+
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+Server-->Browser: spa
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Server-->Browser: main.css
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+Server-->Browser: spa.js
+
+note over Browser:
+The browser executes the JavaScript code
+and the code makes an HTTP GET request
+end note
+
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server-->Browser: [{"content":"","date":"2021-08-10T11:16:49.843Z"}, ...
+
+note over Browser:
+The browser executes the redrawNotes() method to recieve data.
+end note

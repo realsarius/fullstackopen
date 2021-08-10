@@ -1,0 +1,22 @@
+title Diagram
+
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+Server-->Browser: notes
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Server-->Browser: main.css
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
+Server-->Browser: main.js
+
+note over Browser:
+The browser executes the JavaScript code
+and the code makes an HTTP GET request
+end note
+
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server-->Browser: [{"content":"No empty lines please!","date":"2021-08-10T09:49:13.003Z"}, ..
+
+note over Browser:
+After the data has been fetched,
+the browser executes an event handler,
+which renders the notes to display
+end note
