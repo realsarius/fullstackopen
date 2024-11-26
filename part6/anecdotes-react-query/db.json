@@ -1,0 +1,74 @@
+{
+  "anecdotes": [
+    {
+      "anecdote": "If it hurts, do it more often.",
+      "votes": 6,
+      "id": "24c5bfa3-517a-460d-9e63-de0d8f4d6abc"
+    },
+    {
+      "anecdote": "Adding manpower to a late software project makes it later!",
+      "votes": 4,
+      "id": "a2c3fc4f-e18a-4d43-838b-5f0d1579e9b4"
+    },
+    {
+      "anecdote": "The first 90 percent of the code accounts for the first 90 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
+      "votes": 8,
+      "id": "660cb547-8066-4692-b302-0ebb77800659"
+    },
+    {
+      "anecdote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+      "votes": 0,
+      "id": "2677e550-a1f3-4ea3-a14f-bb23d1c97211"
+    },
+    {
+      "id": "a30fcc3f-a235-4b02-9269-9987d3e0bb28",
+      "anecdote": "Premature optimization is the root of all evil.",
+      "votes": 16
+    },
+    {
+      "anecdote": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+      "votes": 0,
+      "id": "12d29217-c439-4c6b-b570-9d60470d6787"
+    },
+    {
+      "anecdote": "Programming without an extremely heavy use of console.log is same as if a doctor would refuse to use x-rays or blood tests when diagnosing patients.",
+      "votes": 10,
+      "id": "b2e1b4b5-e297-4ad3-901b-a3757c38d433"
+    },
+    {
+      "anecdote": "The only way to go fast, is to go well.",
+      "votes": 6,
+      "id": "5f4dfbb6-4471-4bb5-83aa-9799c259c7f8"
+    },
+    {
+      "id": "65cd3418-48f7-453e-8527-e9e32f170652",
+      "anecdote": "new anecdote by me aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "votes": 2
+    },
+    {
+      "id": "4da968a9-3758-4720-9242-e4bafe80282f",
+      "anecdote": "asd",
+      "votes": 23
+    },
+    {
+      "id": "7353ba56-af8e-4cef-991c-5ab79058a6f4",
+      "anecdote": "qweqwe",
+      "votes": 1
+    },
+    {
+      "id": "518730",
+      "anecdote": "asdasdasdasdasdsaddas",
+      "votes": 0
+    },
+    {
+      "id": "886824",
+      "anecdote": "new shit",
+      "votes": 0
+    },
+    {
+      "id": "782416",
+      "anecdote": "aaa",
+      "votes": 0
+    }
+  ]
+}
