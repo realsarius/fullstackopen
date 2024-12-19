@@ -1,0 +1,11 @@
+.list-item {
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 0 1rem;
+}
+
+.entries {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
